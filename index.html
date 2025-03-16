@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoalGear - Sklep Piłkarski</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>⚽ GoalGear - Sklep Piłkarski</h1>
+        <div id="cart">
+            🛒 Koszyk: <span id="cart-count">0</span> produktów
+        </div>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="images/barcelona.jpg" alt="Koszulka Barcelony">
+            <h2>Koszulka FC Barcelona</h2>
+            <p>Sezon 2024/25 - Cena: <strong>299 zł</strong></p>
+            <button onclick="addToCart('Koszulka FC Barcelona', 299)">Dodaj do koszyka</button>
+        </div>
+
+        <div class="product">
+            <img src="images/real_madrid.jpg" alt="Koszulka Real Madryt">
+            <h2>Koszulka Real Madryt</h2>
+            <p>Sezon 2024/25 - Cena: <strong>319 zł</strong></p>
+            <button onclick="addToCart('Koszulka Real Madryt', 319)">Dodaj do koszyka</button>
+        </div>
+
+        <div class="product">
+            <img src="images/manchester_united.jpg" alt="Koszulka Manchester United">
+            <h2>Koszulka Manchester United</h2>
+            <p>Sezon 2024/25 - Cena: <strong>279 zł</strong></p>
+            <button onclick="addToCart('Koszulka Manchester United', 279)">Dodaj do koszyka</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GoalGear - Sklep Piłkarski</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
